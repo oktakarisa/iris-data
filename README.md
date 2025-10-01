@@ -64,7 +64,7 @@ This project walks through **data acquisition → exploration → visualization 
   - Introduced by **Ronald A. Fisher (1936)**.
   - Widely used for **classification and clustering tasks**.
   - Features are continuous and relatively balanced across classes.
-- Documentation exported in multiple formats:
+  
   - [`iris_dataset_info.md`](data/iris_dataset_info.md)
 
 ---
