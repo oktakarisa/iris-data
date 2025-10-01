@@ -143,9 +143,13 @@ This project walks through **data acquisition → exploration → visualization 
 #### **Individual problems can also be run separately:**
 
 python problem1_data_acquisition.py
+
 python problem2_combine_data.py
+
 ...
+
 python problem8_analysis_interpretation.py
+
 
 
 ## Author
