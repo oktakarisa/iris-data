@@ -53,24 +53,24 @@ This project walks through **data acquisition → exploration → visualization 
 ---
 
 ### **[Problem 4] Dataset Research (Discussion)**
-- Document dataset background:  
+- Dataset background:  
   - Introduced by **Ronald A. Fisher (1936)**.  
   - Widely used for **classification and clustering tasks**.  
   - Features are continuous and relatively balanced across classes.  
-- Files saved in multiple formats for documentation:  
-  - `data/iris_dataset_info.docx`  
-  - `data/iris_dataset_info.pdf`  
-  - `data/iris_dataset_info.md`
+- Documentation exported in multiple formats:  
+  - [`iris_dataset_info.docx`](data/iris_dataset_info.docx)  
+  - [`iris_dataset_info.pdf`](data/iris_dataset_info.pdf)  
+  - [`iris_dataset_info.md`](data/iris_dataset_info.md)  
 
 ---
 
 ### **[Problem 5] Feature Extraction**
-- Extract subsets of the dataset:
+- Extracted subsets of the dataset:
   1. Entire `sepal_width` column.  
   2. Rows 50–99 (all columns).  
   3. Rows 50–99 (only `petal_length`).  
   4. All rows where `petal_width == 0.2`.  
-- Save subsets as:
+- Saved as:
   - `data/subset_sepal_width.csv`  
   - `data/subset_rows_50_99.csv`  
   - `data/subset_rows_50_99_petal_length.csv`  
@@ -79,40 +79,36 @@ This project walks through **data acquisition → exploration → visualization 
 ---
 
 ### **[Problem 6] Visualization**
-- Created **box plots** and **violin plots** for each feature.  
-- Created a **pie chart** for class distribution.  
-- Saved in `plots/`:
-  - `problem6_pie_chart.png`
-  - `problem6_boxplot_sepal_length.png`
-  - `problem6_boxplot_sepal_width.png`
-  - `problem6_boxplot_petal_length.png`
-  - `problem6_boxplot_petal_width.png`
-  - `problem6_violin_sepal_length.png`
-  - `problem6_violin_sepal_width.png`
-  - `problem6_violin_petal_length.png`
-  - `problem6_violin_petal_width.png`
+- Plots generated and saved in `plots/`:  
+  ![Class Distribution](plots/problem6_pie_chart.png)  
+  ![Boxplot Sepal Length](plots/problem6_boxplot_sepal_length.png)  
+  ![Boxplot Sepal Width](plots/problem6_boxplot_sepal_width.png)  
+  ![Boxplot Petal Length](plots/problem6_boxplot_petal_length.png)  
+  ![Boxplot Petal Width](plots/problem6_boxplot_petal_width.png)  
+  ![Violin Sepal Length](plots/problem6_violin_sepal_length.png)  
+  ![Violin Sepal Width](plots/problem6_violin_sepal_width.png)  
+  ![Violin Petal Length](plots/problem6_violin_petal_length.png)  
+  ![Violin Petal Width](plots/problem6_violin_petal_width.png)  
 
 ---
 
 ### **[Problem 7] Feature Relationships**
-- Generated plots showing **pairwise feature relationships**:
-  - Scatter plots
-  - Pairplot
-  - Correlation heatmap
-- Saved in `plots/`.
+- Pairwise feature relationships plotted and saved in `plots/`:  
+  ![Pairplot](plots/problem7_pairplot.png)  
+  ![Correlation Heatmap](plots/problem7_heatmap.png)  
+  ![Scatter Example](plots/problem7_scatter.png)  
 
 ---
 
 ### **[Problem 8] Analysis & Interpretation (Discussion)**
-- Key observations:  
-  - **Setosa** is clearly separable (smaller petals, narrow range).  
-  - **Versicolor** and **Virginica** overlap but still show trends (Virginica generally larger petals).  
-  - Sepal features less effective for separation than petal features.  
-- Interpretations saved as:
-  - `data/results_discussion.md`  
-  - `data/results_discussion.txt`
-
----
+- Observations:  
+  - **Setosa**: clearly separable (small, narrow petals).  
+  - **Versicolor** vs **Virginica**: overlap but Virginica generally has larger petals.  
+  - Sepal features: weaker for separation than petal features.  
+- Interpretations saved as:  
+  - [`results_discussion.md`](data/results_discussion.md)  
+  - [`results_discussion.txt`](data/results_discussion.txt)  
+  
 
 ### **Tools Used**
 - Python  
